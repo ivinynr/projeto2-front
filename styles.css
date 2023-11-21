@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-family: 'Sen', sans-serif;
+}
+
+#centralizer {
+    max-width: 1170px;
+    margin: auto;
+}
+#centralizer2{
+    max-width: 1170px;
+    margin: auto;
+}
+#titulo{
+    margin: 25px 0 25px 0;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#menu {
+    margin: 25px 0 25px 0;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#caixa1 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    max-width: 300px;
+    margin: 30px;
+}
+
+#caixa2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#caixa3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+#table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+#tr, th, td {
+    border: 1px solid black;
+    height: 18px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}

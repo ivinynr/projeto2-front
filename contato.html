@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="centralizer">
+        <div id="menu">
+            <a href="index.html">Home</a> |
+            <a href="contato.html">Contato</a> |
+            <a href="login_admin.html">Área Admin</a>
+        </div>
+        <div id="caixa2">
+            <form id="contato-form" action="">
+                <h1>Contato</h1>
+                <div>
+                    <input type="text" placeholder="Nome" required="" id="nome" />
+                </div>
+                <br>
+                <div>
+                    <input type="email" placeholder="E-mail" required="" id="email-contato" />
+                </div>
+                <br>
+                <div>
+                    <textarea type="text" placeholder="Mensagem" required="" rows="7" id="mensagem"></textarea>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <button type="button" id="enviar-email" onclick="pegarDadosContato()">Enviar</button>
+                    </div>
+                        
+                </div>
+                <div>
+                    <p id="paragrafo-teste"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="api.js"></script>
+    <script src="script_contato.js"></script>
+</body>
+
+</html>
